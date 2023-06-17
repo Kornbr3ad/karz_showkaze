@@ -10,16 +10,16 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero__title">
-          Find, Book, or Rent a Kar — quickly and easily!
+          Find, Book, or Rent a Kar — Kwikly & E-Z!
         </h1>
         
         <p className="hero__subtitle">
-          Streamline your Kar Rental Experience
-          with our effortless booking process.
+          Streamline Ur Kar Rental X-Perience
+          wit our Effortless booking Procezz!
         </p>
 
         <CustomButton 
-          title="Explore Karz"
+          title="X-Plore Karz"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleClick={handleScroll}
         />

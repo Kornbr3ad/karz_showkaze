@@ -17,7 +17,7 @@ const Footer = () => {
           />
           <p className="text-base text-gray-700">
             Kar Hub 2023 <br />
-            All Rights Reserved &copy;
+            All Rightz Reserved &copy;
           </p>
         </div>
 
@@ -40,7 +40,10 @@ const Footer = () => {
       </div>
 
       <div className="flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10">
-        <p>@2023 Kar Hub. All Righhts Reserved</p>
+        <p>
+          @2023 Kar Hub. All Rightz Reserved <br />
+          Made by Kornbread &copy;
+        </p>
         <div className="footer__copyrights-link">
           <Link
             href="/"
@@ -52,7 +55,7 @@ const Footer = () => {
             href="/"
             className="text-gray-500"
           >
-            Terms of Use
+            Terms of Uze
           </Link>
         </div>
       </div>

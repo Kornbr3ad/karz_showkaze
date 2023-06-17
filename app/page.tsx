@@ -57,9 +57,11 @@ export default function Home() {
       <div className="mt-12 padding-x padding-y max-width" id="discover">
         <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">
-            Kar Catalogue
+            Kar Katalogue
           </h1>
-          <p>Explore the Karz you might like</p>
+          <p>
+            X-Plore da Karz dat U Mite like!
+          </p>
         </div>
         <div className="home__filters">
           <SearchBar 
@@ -103,7 +105,7 @@ export default function Home() {
           </section>
         ): (
           <div className="home__error-container">
-            <h2 className="text-black text-xl font-bold">Oops, No Results</h2>
+            <h2 className="text-black text-xl font-bold">Oopz, My Bad, But we Ain't got nun of dem!</h2>
             <p>{allCars?.message}</p>
           </div>
         )}
